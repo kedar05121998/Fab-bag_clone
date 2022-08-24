@@ -1,0 +1,34 @@
+.nav_main{
+    display: flex;
+    height: 80px;
+    width: 95%;
+    margin: auto;
+    position: relative;
+}
+.nav_main>h1{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #e5ba61;
+    font-size: 18px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+   
+}
+.nav_img{
+    height: 150px;
+    width: 15%;
+    margin: auto;
+    cursor: pointer;
+}
+.nav_icon{
+   
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
+   width: 15%;
+   margin-top: 1rem;
+    padding-right: 1rem;
+    cursor: pointer;
+    
+}
