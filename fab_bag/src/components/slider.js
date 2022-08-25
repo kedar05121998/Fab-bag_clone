@@ -38,6 +38,18 @@ function UncontrolledExample() {
          
         </Carousel.Caption>
       </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="//cdn.shopify.com/s/files/1/0052/7551/6995/files/Homepage-Banner-Makeup-Reveal--2_b0a7ea1a-47ca-40c5-8430-3e9a608ae209_2048x.png?v=1659500423"
+          alt="Third slide"
+          style={{height:"500px",width:"90%"}}
+        />
+
+        <Carousel.Caption>
+         
+        </Carousel.Caption>
+      </Carousel.Item>
     </Carousel>
   );
 }
