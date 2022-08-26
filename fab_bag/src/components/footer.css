@@ -1,6 +1,8 @@
 .parent-footer {
     display: flex;
     justify-content: space-around;
+    margin-top: 50px;
+   
   }
   .parent-footer h2 {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
