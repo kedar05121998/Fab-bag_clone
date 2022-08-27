@@ -27,7 +27,7 @@ return(
        <FaHeart style={{height:"50px",color:"#e5ba61"}  } />
     <Link to="/signup" > <FaUserCircle style={{height:"50px",color:"#e5ba61"} } /></Link>
       
-      <Link to="/cart" > <FaShoppingCart style={{height:"50px",color:"#e5ba61"} } /></Link>
+      <Link to="/Product" > <FaShoppingCart style={{height:"50px",color:"#e5ba61"} } /></Link>
       
     
         

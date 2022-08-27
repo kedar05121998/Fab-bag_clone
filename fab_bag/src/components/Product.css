@@ -1,0 +1,20 @@
+.p_main{
+    display: flex;
+    width: 90%;
+    height: 400px;
+ 
+    margin: auto;
+}
+.p_main_img{
+    width: 50%;
+}
+.p_main_img>img{
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+    margin-left: 50px;
+}
+.p_main_data{
+    width: 40%;
+    margin-top: 20px;
+}

@@ -1,8 +1,13 @@
 import React from 'react'
+import {  useNavigate } from 'react-router-dom';
 import  styles from "./commonsub.module.css";
 
 const Commonsubs = (props) => {
     const {h1,Pricepermonth,oneTime,oneTimepayment}=props
+    const navigate=useNavigate()
+    function goToCart(){
+       navigate("/Product")
+    }
   return (
    <>
 <div className={styles.subscommon}>
@@ -20,7 +25,7 @@ const Commonsubs = (props) => {
 </div>
 
 <div className={styles.sub}>
-<button type="submit" className={styles.btn} >ADD TO CART</button>
+<button type="submit" className={styles.btn}  onClick={goToCart} >ADD TO CART</button>
 	</div>
 
 

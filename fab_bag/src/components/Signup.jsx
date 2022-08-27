@@ -3,7 +3,7 @@ import {Navigate} from "react-router-dom";
 import { AuthContext } from "../Context/AuthContext"
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-import { Button, HStack, Input } from "@chakra-ui/react";
+import { Button, Heading, HStack, Input } from "@chakra-ui/react";
 import { FaFacebook, FaGoogle } from "react-icons/fa";
 import "./LoginSignup.css"
 
@@ -23,7 +23,10 @@ export default function SignUp(){
 
     return(
         <div className="sigup_main" >
+             <Heading style={{marginBottom:"20px"}} >SignUp</Heading>
           <HStack>
+         
+          <br />
   <Button colorScheme='facebook' leftIcon={<FaFacebook />}>
    Sign in with Facebook
   </Button>
@@ -34,11 +37,11 @@ export default function SignUp(){
   </Button>
   <br />
 </HStack>
-            <Input onChange={(e)=>setName(e.target.value)} value={name} type="text" placeholder="Enter your email"/> <br />
+            <Input style={{marginTop:"20px"}}  onChange={(e)=>setName(e.target.value)} value={name} type="text" placeholder="Enter your email"/> <br />
             <br />
             <Input onChange={(e)=>setPassword(e.target.value)} value={password} type="password" placeholder="Enter your password"/>
            <br />
-            <Button onClick={signup}>Sign Up</Button>
+            <Button onClick={signup}>SignUp</Button>
         </div>
     )
 }
