@@ -1,5 +1,6 @@
 
 import { Route, Routes } from "react-router-dom";
+import Checkout from "../components/Checkout";
 import Footer from "../components/Footer";
 import FrontPage from "../components/FrontPage";
 
@@ -18,8 +19,8 @@ function AllRoutes(){
             <Route path="/" element={<FrontPage/>} />
             <Route path="/signup" element={<SignUp/>} />
             <Route path="/login" element={<Login />} />
-            <Route path="/cart" element={<h1>cart</h1>} />
-            <Route path="/Product" element={<Product/>} />
+            <Route path="/Product" element={<Product />} />
+            <Route path="/Checkout" element={<Checkout />} />
 
         </Routes>
     

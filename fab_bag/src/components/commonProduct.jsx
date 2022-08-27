@@ -2,12 +2,13 @@ import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import  Styles from "./test.module.css";
+import Product from './Product';
 
  export const Bagcomponent = () => {
  const navigate=useNavigate()
  
   const handlegotoProduct=()=>{
-     navigate("/products")
+     navigate("/product")
   }
  
   return (
