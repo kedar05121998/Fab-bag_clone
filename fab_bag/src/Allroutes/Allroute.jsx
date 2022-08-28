@@ -1,6 +1,8 @@
 
 import { Route, Routes } from "react-router-dom";
-import Checkout from "../components/Checkout";
+import Check from "../components/Check";
+// import Checkout from "../components/Checkout";
+// import Checkout from "../components/Checkout";
 import Footer from "../components/Footer";
 import FrontPage from "../components/FrontPage";
 
@@ -20,7 +22,7 @@ function AllRoutes(){
             <Route path="/signup" element={<SignUp/>} />
             <Route path="/login" element={<Login />} />
             <Route path="/Product" element={<Product />} />
-            <Route path="/Checkout" element={<Checkout />} />
+            <Route path="/checkout" element={<Check />} />
 
         </Routes>
     

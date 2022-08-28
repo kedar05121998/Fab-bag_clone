@@ -5,7 +5,7 @@ import styles from "./Checkout.module.css"
 
 
 
-const Checkout = () => {
+function Checkout () {
 
    
 
@@ -30,6 +30,7 @@ const Checkout = () => {
      
             <form onSubmit={handlesubmit} >
                 <div className={styles.headlogo}>
+                   
                     <img className={styles.headlogoimg} src='https://cdn.shopify.com/s/files/1/0052/7551/6995/files/FABBAG-LOGO-FINAL.png?10432' alt="kp"/>
                 </div>
                 <div className={styles.upperdiv}>
