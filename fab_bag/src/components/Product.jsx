@@ -2,16 +2,17 @@ import React from "react";
 import "./Product.css"
 import {Button, Heading} from "@chakra-ui/react"
 import { Link, useNavigate } from "react-router-dom";
+import Checkout from "./Checkout";
 
 
 
 
 
 function Product() {
-  // const navigate=useNavigate()
-  // function goToCheck(){
-  //    navigate("/Checkout")
-  // }
+  const navigate=useNavigate()
+  function goToCheck(){
+     navigate("/checkout")
+  }
   return (
   
     <div className="p_main" style={{display:"flex",width:"90%"}} >
@@ -29,7 +30,7 @@ Rs. 599.00
 </Heading>
 <p>We appreci-EIGHT your love and hence we've decided to treat you with 8 unbeatable...</p>
 
-<Link to="/Checkout">
+{/* <Link to="/Checkout"> */}
 <Button
   size='md'
   height='48px'
@@ -40,12 +41,12 @@ Rs. 599.00
   bgColor="black"
   color="white"
   marginBottom="10px"
-  // onClick={goToCheck}
+  onClick={goToCheck}
 
 >
 Proceed to Checkout
 </Button>
-</Link>
+{/* </Link> */}
 <br />
 
               <i class="fa-brands fa-instagram"></i>
