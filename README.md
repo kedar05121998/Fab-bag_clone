@@ -14,3 +14,5 @@ Checkout
 Payment
 
 Sign Up, Login
+
+#Tech Stack- ReatJs,HTML,CSS,JavaScript
